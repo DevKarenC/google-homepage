@@ -114,6 +114,24 @@ a:hover {
   margin: 40px;
 }
 
+.search-button,
+.lucky-button {
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 14px;
+  color: #3c4043;
+  border-radius: 4px;
+  margin: 0 6px;
+}
+
+.search-button:hover,
+.lucky-button:hover {
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
 .languages {
   font-size: small;
 }
