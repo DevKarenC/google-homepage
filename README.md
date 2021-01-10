@@ -6,25 +6,20 @@ As the title suggests, the purpose of this project was to create a clone of Goog
 
 ### Demo: Spot the Difference!
 
-#### Google 1
+#### Google 1: Desktop
 
-##### Desktop
+<img style="border: 1px solid gray" src="images/Readme-Google-1.png" alt="Mobile responsive image for the first Google page" />
 
-![Google Homepage Image 1](images/Readme-Google-1.png)
+#### Google 2: Desktop
 
-##### Mobile
+<img style="border: 1px solid gray" src="images/Readme-Google-2.png" alt="Mobile responsive image for the second Google page" />
 
-<img src="images/Readme-Google-mobile-1.png" alt="Mobile responsive image for the first Google page" width="449"/>
+#### Google 1: Mobile (left) & Google 2: Mobile (right)
 
-#### Google 2
-
-##### Desktop
-
-![Google Homepage Image 2](images/Readme-Google-2.png)
-
-##### Mobile
-
-<img src="images/Readme-Google-mobile-2.png" alt="Mobile responsive image for the second Google page" width="449"/>
+<p float="left">
+    <img style="border: 1px solid gray" src="images/Readme-Google-mobile-1.png" alt="Mobile responsive image for the first Google page" width="449"/>
+    <img style="border: 1px solid gray" src="images/Readme-Google-mobile-2.png" alt="Mobile responsive image for the second Google page" width="449"/>
+</p>
 
 ---
 
