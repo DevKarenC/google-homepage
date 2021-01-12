@@ -1,4 +1,10 @@
-html,
+html {
+  background-color: #ffffff;
+  -webkit-transition: background-color 0.25s ease-in;
+  -moz-transition: background-color 0.25s ease-in;
+  -o-transition: background-color 0.25s ease-in;
+  transition: background-color 0.25s ease-in;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -14,11 +20,6 @@ a:hover {
 
 .header a {
   color: rgba(0, 0, 0, 0.87);
-}
-
-.languages a {
-  color: #1a0dab;
-  padding: 0 3px;
 }
 
 .footer a,
@@ -71,7 +72,7 @@ a:hover {
 
 #sign-in {
   border: 1px solid #4285f4;
-  background: -moz-linear-gradient(top, #4387fd, #4683ea);
+  background-color: #4387fd;
   color: white;
   padding: 6px 12px;
   font-weight: bold;
@@ -164,10 +165,6 @@ fas {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.languages {
-  font-size: small;
-}
-
 /* FOOTER */
 
 .footer {
@@ -252,4 +249,46 @@ fas {
   .footer-middle {
     padding: 10px 0 0 0;
   }
+}
+
+/* NIGHT MODE */
+html.night {
+  background-color: #2e2e2e;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+
+.night .lucky-button {
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 14px;
+  color: #3c4043;
+  border-radius: 4px;
+  margin: 0 6px;
+  white-space: nowrap;
+  -webkit-box-shadow: 0 0 20px #ffff00;
+}
+
+.night .lucky-button:hover {
+  -webkit-box-shadow: 0 0 30px #ffff00;
+}
+
+a.night {
+  color: #ffffff;
+}
+
+.night .google-apps {
+  opacity: 0;
+}
+
+.night .footer {
+  background-color: #2e2e2e;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
 }
